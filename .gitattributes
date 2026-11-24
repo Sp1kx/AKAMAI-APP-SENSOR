@@ -1,0 +1,2 @@
+akamai-bmp-linux-amd64 filter=lfs diff=lfs merge=lfs -text
+akamai-bmp-windows-amd64.exe filter=lfs diff=lfs merge=lfs -text
