@@ -18,15 +18,20 @@ cp db/devices.example.json db/devices.json
 ```
 Windows:
 
+```
 copy db\devices.example.json db\devices.json
 akamai-bmp-windows-amd64.exe -port 1337 -devicepath db\devices.json
+```
 
 ## Peticion
 
 POST /akamai/bmp
+
 Content-Type: application/json
 
 Body
+
+```
 {
   "app": "es.dia",
   "lang": "es_ES",
@@ -35,4 +40,5 @@ Body
   "powUrl": "https://www.dia.es"
 }
 
+```
 Versiones admitidas: 3.3.4, 3.3.1, 3.3.0, 3.2.3, 3.1.0, 2.2.3, 2.2.2, 2.1.2.
